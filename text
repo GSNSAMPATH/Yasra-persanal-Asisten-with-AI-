@@ -1,0 +1,17 @@
+    if command  == "hello":
+        text = "Hello, sumal how can I help you?"
+
+    elif command == "what is your name":
+        text = "I am your virtual assistant."
+    
+    elif command == "how are you":
+        text = "I am fine, thank you and how are you?"
+    
+    elif command == "how old are you":
+        text = "I am 1 years old."
+
+    elif command == "what can you do":
+        text = "I can talk with you"
+
+    else:
+        text = "I don't understand"  
