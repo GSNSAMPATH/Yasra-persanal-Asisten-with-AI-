@@ -8,7 +8,7 @@ import re
 
 
 engine = pyttsx3.init()
-GOOGLE_API_KEY = "AIzaSyDLaih5sXlFlbJdGBeCrwLXt0d4GPD5YA8"
+GOOGLE_API_KEY = "API Key"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 engine.setProperty('voice', 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_ZIRA_11.0')
